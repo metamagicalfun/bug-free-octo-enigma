@@ -55,6 +55,9 @@ int main(void)
 	bool result = packet.is_valid(md5);
 
     std::cout << result << std::endl;
+	if (result) {
+		std::cout << "Yay!" << std::endl;
+	}
 
     return 0;
 }
